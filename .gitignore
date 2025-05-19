@@ -72,3 +72,22 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+# 언리얼 필수 무시 항목
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.db
+*.suo
+*.sdf
+*.opensdf
+*.log
+.vscode/
+.vs/
+*.xcodeproj
+*.xcworkspace
+
+# 빌드 산출물 무시
+*.dll
+*.exe
+*.pdb
